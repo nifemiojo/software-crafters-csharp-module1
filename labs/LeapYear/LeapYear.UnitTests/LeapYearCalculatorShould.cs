@@ -31,5 +31,13 @@ namespace Tests
 
             Assert.False(result);
         }
+
+        [Test]
+        public void ReturnFalse_WhenInputIs2()
+        {
+            bool result = LeapYearImpl.IsLeapYear(2);
+
+            Assert.False(result);
+        }
     }
 }
