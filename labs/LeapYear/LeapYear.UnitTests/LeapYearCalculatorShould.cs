@@ -29,28 +29,22 @@ namespace Tests
             Assert.False(result);
         }
 
-        [Test]
-        public void ReturnFalse_WhenInputIs100()
+        [TestCase(100)]
+        [TestCase(200)]
+        [TestCase(300)]
+        public void ReturnFalse_WhenInputIsDivisibleBy100(int year)
         {
-            bool result = LeapYearImpl.IsLeapYear(100);
+            bool result = LeapYearImpl.IsLeapYear(year);
 
             Assert.False(result);
         }
 
         [Test]
-        public void ReturnFalse_WhenInputIs200()
+        public void ReturnTrue_WhenInputIs400()
         {
-            bool result = LeapYearImpl.IsLeapYear(200);
+            bool result = LeapYearImpl.IsLeapYear(400);
 
-            Assert.False(result);
-        }
-        
-        [Test]
-        public void ReturnFalse_WhenInputIs300()
-        {
-            bool result = LeapYearImpl.IsLeapYear(300);
-
-            Assert.False(result);
+            Assert.True(result);
         }
 
     }
