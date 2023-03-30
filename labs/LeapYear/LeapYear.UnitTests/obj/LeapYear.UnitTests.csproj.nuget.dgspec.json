@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear.UnitTests\\LeapYear.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear.UnitTests\\LeapYear.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear.UnitTests\\LeapYear.UnitTests.csproj",
+        "projectName": "LeapYear.UnitTests",
+        "projectPath": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear.UnitTests\\LeapYear.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\femi.ojo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\femi.ojo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://asos.pkgs.visualstudio.com/_packaging/PE-ASOSPackages@Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/asos/_packaging/PE-ASOS%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/asos/_packaging/PE-ASOS/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/asos/_packaging/PE-ASOSPackages%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear\\LeapYear.csproj": {
+                "projectPath": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear\\LeapYear.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear\\LeapYear.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear\\LeapYear.csproj",
+        "projectName": "LeapYear",
+        "projectPath": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear\\LeapYear.csproj",
+        "packagesPath": "C:\\Users\\femi.ojo\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\training\\software-crafters-csharp-module1-course-material\\courses\\software-crafters-csharp-module1\\labs\\LeapYear\\LeapYear\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\femi.ojo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://asos.pkgs.visualstudio.com/_packaging/PE-ASOSPackages@Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/asos/_packaging/PE-ASOS%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/asos/_packaging/PE-ASOS/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/asos/_packaging/PE-ASOSPackages%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
